@@ -52,9 +52,6 @@ export class AutomateComponent implements OnInit {
       this.fopen = false;
       this.fclose = this.fridgeDetails.Display;
     }
-
-    // console.log(this.productDetails);
-
   }
 
   onSubmittvon() {
