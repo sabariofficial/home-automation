@@ -67,7 +67,6 @@ export class AutomateComponent implements OnInit {
     this.tvOnTime = date.toTimeString();
     console.log('onDate', this.tvOnDate);
     console.log('ontime', this.tvOnTime);
-    // console.log(time);
     this.SetReports();
   }
 
