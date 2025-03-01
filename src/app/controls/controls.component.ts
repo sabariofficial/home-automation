@@ -25,7 +25,6 @@ export class ControlsComponent implements OnInit {
   }
 
   onAddControls() {
-    console.log(this.selectedValue);
     if(this.selectedValue == 'TV'){
       var tvObj = {
         Product : this.selectedValue,
