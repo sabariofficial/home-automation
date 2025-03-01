@@ -1,0 +1,35 @@
+/<div>
+  <h2 style="text-align: center;">Add Products</h2>
+</div>
+
+<div class="row" style="margin-top: 5%;">
+  <div class="col-5 key">
+    Products
+  </div>
+  <div class="col-3 value">
+    <div class="input-group">
+      <select class="form-select" id="inputGroupSelect04" [(ngModel)]="selectedValue" aria-label="Example select with button addon">
+        <option selected disabled hidden>--SELECT--</option>
+        <option *ngFor="let value of products" [ngValue]="value.name">{{value.name}}</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-3 product">
+
+  </div>
+</div>
+<div class="submit">
+  <button class="btn btn-primary" (click)="onAddControls()">Submit</button>
+</div>
+<!-- <<input type="text" name="username" id="username" placeholder="Username" required="required" [(ngModel)]="credentials.username"/>
+  <input type="password" name="password" id="password" placeholder="Password" required="required" [(ngModel)]="credentials.password" /> -->
+<!-- <textarea name="doc" id="sabari" cols="30" rows="10"></textarea> -->
+<!-- <div ng-app="">
+  <form>
+    First Name: <input type="text" ng-model="vicky">
+  </form>
+  <h1>You entered: {{vicky}}</h1>
+</div> -->
+ <!-- <select name="sabari" id="123"></select> -->
+ <!-- <input type="text" [(ngModel)]="name" [ngModelOptions]="{standalone:true}">
+ <p>{{name}}</p> -->

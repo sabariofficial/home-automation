@@ -1,0 +1,37 @@
+.imgcss {
+     width: 80%;
+}
+
+#container {
+    position:relative;
+}
+
+#tvon {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 300px;
+}
+
+#tvoff {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 300px;
+}
+
+#fridgeClose{
+    position: absolute;
+    right: 212px;
+    top: 127px;
+    width: 181px;
+    height: 74%;
+}
+
+#fridgeOpen{
+    position: absolute;
+    right: 110px;
+    top: 100px;
+    width: initial;
+    height: 85%;
+}
